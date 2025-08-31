@@ -5,25 +5,6 @@ import { styled } from "@mui/material/styles"
 import AccessTimeIcon from "@mui/icons-material/AccessTime"
 import ThumbUpIcon from "@mui/icons-material/ThumbUp"
 import PeopleIcon from "@mui/icons-material/People"
-// import { Metadata } from "next"
-
-// export const metadata: Metadata = {
-//   title: 'O nama',
-//   description: 'Saznajte više o Odvod Servisu. Više od 10 godina iskustva u rešavanju svih vrsta problema sa vodovodnim instalacijama u Beogradu i okolini.',
-//   openGraph: {
-//     title: 'O nama | Odvod Servis',
-//     description: 'Saznajte više o Odvod Servisu. Više od 10 godina iskustva u rešavanju svih vrsta problema sa vodovodnim instalacijama.',
-//     url: 'https://www.odvodservis.rs/about',
-//     images: [
-//       {
-//         url: 'https://www.odvodservis.rs/images/about-og-image.jpg',
-//         width: 1200,
-//         height: 630,
-//         alt: 'O kompaniji Odvod Servis',
-//       },
-//     ],
-//   },
-// };
 
 const PageHeader = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.primary.main,
@@ -80,22 +61,28 @@ export default function AboutPage() {
 
   const team = [
     {
-      name: "Marko Marinkovic Majmun",
-      position: "triple M",
-      avatar: "/images/team1.jpg",
+      name: "Milorad Matijević",
+      position: "Osnivač i generalni direktor",
+      avatar: "/imgs/milorad.jpg",
       initials: "MM",
     },
     {
-      name: "Nikola Nikolić",
-      position: "Glavni vodoinstalater",
-      avatar: "/images/team2.jpg",
-      initials: "NN",
+      name: "Ivan Matijević",
+      position: "Glavni izvodjač radova",
+      avatar: "/imgs/ivan.jpg",
+      initials: "IM",
     },
     {
-      name: "Jovana Jovanović",
-      position: "Menadžer",
-      avatar: "/images/team3.jpg",
-      initials: "JJ",
+      name: "Bojana Matijević",
+      position: "Računovodja i pozivni centar",
+      avatar: "/imgs/bojana.png",
+      initials: "BM",
+    },
+    {
+      name: "Bogdan Matijević",
+      position: "Marketing Menadžer",
+      avatar: "/imgs/bogdan.jpg",
+      initials: "BM",
     },
   ]
 
@@ -116,13 +103,13 @@ export default function AboutPage() {
               Naša priča
             </Typography>
             <Typography variant="body1" paragraph>
-              Odvod Servis je osnovan 2010. godine sa ciljem da pruži kvalitetne
-              vodoinstalaterske usluge u Beogradu i okolini. Počeli smo kao mala
+              Firma &quot;Odvod Servis&quot; osnovana je 2023. godine u Arandjelovcu sa  sa ciljem da pruži kvalitetne
+              vodoinstalaterske usluge u Beogradu, Arandjelovcu, Topoli, Kragujevcu, Mladenovcu, Lazarevcu i po potrebi ostalim gradovima Šumadije . Počeli smo kao mala
               porodična firma, a danas smo prepoznatljiv brend u oblasti
               vodoinstalaterskih usluga.
             </Typography>
             <Typography variant="body1" paragraph>
-              Sa više od decenije iskustva u rešavanju svih vrsta problema sa
+              Sa velikim izborom tehnologije i opreme i dosta iskustva u rešavanju svih vrsta problema sa
               vodovodnim instalacijama, naš tim je spreman da se suoči sa svakim
               izazovom i pruži kvalitetna rešenja za vaš dom ili poslovni
               prostor.

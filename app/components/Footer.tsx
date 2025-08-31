@@ -156,16 +156,16 @@ const Footer = () => {
             <ContactItem>
               <LocationOnIcon sx={{ mr: 1.5, fontSize: 20 }} />
               <Typography variant="body2">
-                Vodovodska 123, 11000 Beograd
+                Svetolika Rankovica 7, 34300 Arandjelovac
               </Typography>
             </ContactItem>
             <ContactItem>
               <PhoneIcon sx={{ mr: 1.5, fontSize: 20 }} />
-              <Typography variant="body2">+381 11 123 4567</Typography>
+              <Typography variant="body2">+381 64 176 68 38</Typography>
             </ContactItem>
             <ContactItem>
               <EmailIcon sx={{ mr: 1.5, fontSize: 20 }} />
-              <Typography variant="body2">info@odvodservis.rs</Typography>
+              <Typography variant="body2">odvodservis@gmail.com</Typography>
             </ContactItem>
           </Grid>
         </Grid>

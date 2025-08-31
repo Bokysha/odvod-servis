@@ -166,14 +166,14 @@ export default function ContactPage() {
     {
       icon: <PhoneIcon fontSize="inherit" />,
       title: "Telefon",
-      content: "+381 11 123 4567",
+      content: "+381 64 17 66 838",
       link: "tel:+381 64 17 66 838",
     },
     {
       icon: <EmailIcon fontSize="inherit" />,
       title: "Email",
-      content: "info@odvodservis.rs",
-      link: "mailto:info@odvodservis.rs",
+      content: "odvodservis@gmail.com",
+      link: "mailto:odvodservis@gmail.com",
     },
     {
       icon: <LocationOnIcon fontSize="inherit" />,
